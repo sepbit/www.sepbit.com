@@ -1,0 +1,13 @@
+{
+    "livePreview.defaultPreviewPath": "/index.html",
+    "chat.tools.terminal.autoApprove": {
+        "/^python3 -m http\\.server 8000 -d /home/guia/sepbit$/": {
+            "approve": true,
+            "matchCommandLine": true
+        },
+        "/^git diff --check && test -s \\.github/copilot-instructions\\.md && rg -n \"Estrutura\\|Validacao local\\|python3 -m http\\.server\\|push\\.\\*pedido explicito\" \\.github/copilot-instructions\\.md$/": {
+            "approve": true,
+            "matchCommandLine": true
+        }
+    }
+}
