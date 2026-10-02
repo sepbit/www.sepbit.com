@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="A página que você procura não foi encontrada na Sepbit." />
+    <title>Página não encontrada | Sepbit</title>
+    <meta name="theme-color" content="#212529" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
+  <body class="error-page">
+    <a class="skip-link" href="#content">Ir para o conteúdo</a>
+
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-glass fixed-top" aria-label="Navegação principal">
+      <div class="container py-2">
+        <a class="navbar-brand brand-mark" href="./" aria-label="Sepbit, voltar para a home">
+          <span class="brand-mark__text">Sepbit</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Alternar navegação">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mainNav">
+          <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-2">
+            <li class="nav-item"><a class="nav-link" href="./#services">Serviços</a></li>
+            <li class="nav-item"><a class="nav-link" href="field-service/">Field Service</a></li>
+            <li class="nav-item"><a class="nav-link" href="./#about">Sobre nós</a></li>
+            <li class="nav-item"><a class="nav-link" href="./#contact">Contato</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <main id="content">
+      <section class="error-section section-shell" aria-labelledby="error-title">
+        <div class="hero-orb hero-orb--one"></div>
+        <div class="hero-orb hero-orb--two"></div>
+        <div class="container position-relative">
+          <div class="error-content text-center reveal">
+            <p class="error-code" aria-hidden="true">404</p>
+            <p class="eyebrow justify-content-center">Página não encontrada</p>
+            <h1 id="error-title" class="display-5 fw-bold text-white mb-3">Esse caminho não está disponível.</h1>
+            <p class="lead text-secondary-emphasis mx-auto mb-4">A página pode ter sido movida ou o endereço pode estar incorreto. Vamos levar você de volta para um lugar certo.</p>
+            <div class="d-flex flex-column flex-sm-row justify-content-center gap-3">
+              <a class="btn btn-light btn-lg px-4" href="./">Voltar para a home</a>
+              <a class="btn btn-outline-light btn-lg px-4" href="./#contact">Falar com a Sepbit</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer-bar">
+      <div class="container d-flex flex-column flex-md-row justify-content-between gap-2 py-4">
+        <span>© <span data-year></span> Sepbit. Tecnologia que transforma negócios.</span>
+        <span>Consultoria em TI, sistemas e infraestrutura.</span>
+      </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
